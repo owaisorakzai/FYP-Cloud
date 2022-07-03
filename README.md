@@ -1,4 +1,4 @@
-# Template for deploying ML models using Flask + Gunicorn + Nginx inside Docker
+
 
 ## Running the solution
 
@@ -16,8 +16,6 @@ For Docker installation instructions follow:
 — [Docker Compose installation](https://docs.docker.com/compose/install/)
 
 ## Understanding the solution
-
-— The detailed way: check [my Medium post](https://towardsdatascience.com/how-to-deploy-ml-models-using-flask-gunicorn-nginx-docker-9b32055b3d0) regarding this solution. 
 
 — The fast way: the project is structured as follows: Flask app and WSGI entry point are localed in flask_app directory. Nginx and project configuration files are located in nginx directory. Both directories contain Docker files that are connected using docker_compose.yml file in the main directory. 
   
