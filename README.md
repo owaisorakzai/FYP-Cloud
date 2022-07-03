@@ -1,5 +1,4 @@
 
-
 ## Running the solution
 
 In order to run this solution, you just have to install Docker, Docker compose, then clone this repository, and then:
